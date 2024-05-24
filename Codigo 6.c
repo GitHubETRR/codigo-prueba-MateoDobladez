@@ -2,7 +2,7 @@
 
 int main(){
 
-    float area, perimetro;
+    float area, perimetro, lado;
     printf("Ingrese el valor del area de su cuadrado\n");
     scanf("%f", &area);
     lado = sqrt(area);

@@ -11,7 +11,7 @@ float cm, ft, inches, var1, var2;
     ft = cm/var1;
     inches = cm/var2;
     printf("Su valor en pies es de: %f pies\n", ft);
-    printf("Su valor en pulgadas es de: %f pulgadas", inches)
+    printf("Su valor en pulgadas es de: %f pulgadas", inches);
     
     return 0;
     
