@@ -4,7 +4,7 @@ int main(){
 
     int seg, horas, min;
     printf("ingrese su tiempo en segundos, siempre y cuando su tiempo sea menor a 1 dia\n")
-    scanf("%d", seg);
+    scanf("%d", &seg);
     horas = seg/3600;
     min = (seg%3600)/60;
     seg = (seg%3600)&60;
