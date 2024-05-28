@@ -9,7 +9,7 @@ int main(){
     scanf("%d \n%d \n%d", &horas2, &min2, &seg2);
     segf = seg1 + seg2;
     minf = min1 + min2;
-    horasf = horas1 + horas2
+    horasf = horas1 + horas2;
     if(segf > 59){
         segf = segf - 60;
         minf = minf + 1;
