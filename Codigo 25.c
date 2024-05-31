@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define basico = 4500
 
 int main(){
 
