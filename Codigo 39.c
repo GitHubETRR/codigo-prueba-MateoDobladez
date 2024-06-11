@@ -3,8 +3,8 @@
 int main(){
 
     int var1=1;
+    int nota;
     for(;var1==1;){
-        int nota;
         printf("porfavor, ingrese su promedio en la materia: ");
         scanf("%d", &nota);
         if(nota==10) {
