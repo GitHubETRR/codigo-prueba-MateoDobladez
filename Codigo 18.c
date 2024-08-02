@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float const pi=3.14
+float const PI=3.14
 int main(){
 
     float area, radio;

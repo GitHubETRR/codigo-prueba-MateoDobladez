@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#define SALIR 1
 int main(){
 
     int var1;
@@ -16,7 +16,7 @@ int main(){
 
         printf("si desea ingresar otros numeros, ingrese un 1\n");
         scanf("%d", &var1);
-    } while(var1 == 1);
+    } while(var1 == SALIR);
 
     return 0;
 }

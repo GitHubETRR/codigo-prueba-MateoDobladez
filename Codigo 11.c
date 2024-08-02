@@ -3,7 +3,7 @@
 
 int main(){
     
-float cm, ft, inches, var1, var2;
+    float cm, ft, inches, var1, var2;
     var1 = 30.48;
     var2 = 2.54;
     printf("Porfavor, introduzca su medida en centimetros\n");
