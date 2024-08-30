@@ -11,17 +11,14 @@ int main(){
         for(int j=0; j<5; j++){
             matriz [i] [j] = rand()%(30)+1;
             printf(" %d ", matriz [i] [j]);
-            for(int w=0; w<26; w++){
-                if(max<matriz [i] [j]){
-                    max = matriz [i] [j];
-                    x = i;
-                    y = j;
-                }
+            if(max<matriz [i] [j]){
+                max = matriz [i] [j];
+                x = i;
+                y = j;
             }
         } printf("\n");
     }
-    printf("\n %d ", max);
-    printf("%d%d", x, y);
-
+    printf("\n El numero maximo es : %d ", max);
+    printf("Esta en la posicion: %d-%d", x, y);
     return 0;
 }
